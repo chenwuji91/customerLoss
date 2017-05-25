@@ -1,0 +1,9 @@
+﻿1. 程序运行：执行请直接执行命令 sh six_model_merge.sh 文件，进行模型的建立以及最后的结果预测。
+
+2. 数据准备：原始数据放在data文件夹下面，请确保原始训练数据的文件名为userlostprob_train.txt，验证集的文件名为yanzhengji_final.csv, 这两个文件都是从官网下载的原始文件。
+
+3. 相关运行环境：确保执行shell文件的操作系统为linux或者Mac OS，windows系统可能不能正常运行； Python的版本为2.7版本；需要安装 numpy,scipy,sklearn, xgboost等基本的机器学习相关的包。
+
+4. 生成的结果保存在当前目录下的 avg_result_of_six_model.csv
+
+5. 注：由于在数据处理的过程中，采用多次无放回抽样的方法，所以每次训练得出的结果都存在少量差异。

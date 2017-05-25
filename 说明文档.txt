@@ -1,0 +1,11 @@
+﻿本程序共分两部分：part1和part2
+
+分别执行part1和part2，可得到两份预测结果（假设结果文件名称为part1.csv和part2.csv）
+
+执行 python ensemble.py part1.csv part2.csv 命令，可得到最终预测结果 prediction_mrqin26_final.csv
+
+关于part1和part2的具体执行方法，见相应文件夹内的说明文档。
+
+由于代码经过重新整理，难免出现疏漏，若执行过程中出现问题，可随时联系我们。
+
+联系方式：mrqin_26@126.com  15910789842

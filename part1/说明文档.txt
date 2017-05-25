@@ -1,0 +1,9 @@
+﻿本程序的运行环境为Linux version 2.6.35-22-generic，Python 2.7.3，需要安装 numpy,scipy,sklearn,xgboost等基本的机器学习相关的包。
+
+由于训练文件和测试集文件较大，所以并没包含在文件夹中上传。
+
+请将名为userlostprob_train.txt的训练文件和名为yanzhengji_final.csv的测试集文件放到当前路径下（与run2.sh,newdata等文件平级）
+
+执行run2.sh文件，程序执行完毕后，将会得到名为newresult.csv的预测结果文件。（注：此文件并非最终结果文件！）
+
+将newresult.csv文件与part2得到的预测结果文件进行融合，即可得到最终预测结果文件。融合方式和程序见上级目录中的说明文档。
